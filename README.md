@@ -31,7 +31,7 @@
 - 配色、字体和深浅模式：`config/_default/params.yaml`
 - 论文标题、作者、状态、链接：`content/publications/<论文>/index.md`
 - 论文图片：相应论文目录内的 `featured.png` 或 `featured.jpg`
-- 头像：替换 `assets/media/authors/me.png`，文件名不变；目前是 XH 字母占位。
+- 头像：原图为 `assets/media/authors/me.jpg`；构建时按 `data/authors/me.yaml` 中的 `avatar_crop` 精确裁切。换照片时同步调整或删除裁切参数。
 - 网址：`config/_default/hugo.yaml` 中的 `baseURL`
 
 日期同时保留了机器读取的 start/end 和首页展示的 year。修改教育日期时应同步修改两者。没有添加未经提供的专业名称、导师或工作经历。
@@ -71,7 +71,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory public
 - 保留上游 LICENSE.md 和 Hugo Blox 页脚署名。
 - E2E-MPT 框架图来自 https://github.com/han030927/E2EMPT 的 assets/Overview.png。
 - BPS 框架图来自 https://github.com/han030927/BPS。
-- BIP 卡片为自制文字封面，不是论文实验图；头像为自制 XH 字母图。矢量源文件保存在 design/。
+- BIP 卡片为自制文字封面，不是论文实验图；头像来自本人提供的海边生活照，构建时只裁切原图。BIP 封面的矢量源文件保存在 design/。
 - 论文和研究图仍遵循原论文及仓库的权利声明。
 
 ## 本次模板兼容调整
@@ -80,4 +80,3 @@ python -m http.server 8765 --bind 127.0.0.1 --directory public
 - `layouts/_partials/views/`：论文框架图完整展示、状态标签、作者及 Paper/arXiv/Code 链接，改进响应式卡片间距。
 - `layouts/_partials/hbx/blocks/resume-biography-3/block.html`：首页按钮图标和头像处理。
 - 没有升级官方锁定的 Hugo Blox 模块版本。
-

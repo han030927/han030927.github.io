@@ -43,4 +43,8 @@ education:
     year: 'Aug 2017 – Jul 2021'
     start: 2017-08-01
     end: 2021-07-31
-
+# Original-photo crop for the square avatar (pixels).
+avatar_crop:
+  x: 595
+  y: 740
+  size: 450
