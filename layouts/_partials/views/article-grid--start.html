@@ -1,0 +1,4 @@
+{{ $columns := .config.columns | default 2 }}
+{{ $len := .config.len | default 2 }}
+<div class="container px-2 sm:px-6 mx-auto py-5 lg:py-8 {{ if eq $len 1 }}max-w-[640px] justify-center{{else}}max-w-7xl{{end}}">
+  <div class="grid gap-6 md:grid-cols-2 {{ if eq $columns 3 }}xl:grid-cols-3{{end}} lg:gap-8">

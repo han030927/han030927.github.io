@@ -1,0 +1,10 @@
+main:
+  - name: About
+    url: /#about
+    weight: 10
+  - name: Publications
+    url: /#papers
+    weight: 20
+  - name: Contact
+    url: /#contact
+    weight: 30

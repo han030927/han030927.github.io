@@ -1,0 +1,49 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: "Xu Han"
+    type: person
+    tagline: "PhD Student at Griffith University"
+    description: "Xu Han is a PhD student at Griffith University, working on computer vision and machine learning."
+  theme:
+    mode: light
+    pack: default
+  typography:
+    pack: academic
+  layout:
+    radius: md
+    spacing: spacious
+    avatar_shape: circle
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+  footer:
+    style: minimal
+    language_switcher: false
+  copyright:
+    notice: "© {year} Xu Han."
+  content:
+    math:
+      enable: false
+    reading_time:
+      enable: false
+    citations:
+      style: apa
+  search:
+    enable: true
+  comments:
+    enable: false
+  repository:
+    enable: false
+  locale:
+    date_format: "Jan 2006"
+  debug:
+    enable: false
+  pro:
+    hide_attribution: false

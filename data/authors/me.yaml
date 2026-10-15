@@ -1,0 +1,46 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Xu Han
+  given: Xu
+  family: Han
+role: PhD Student
+bio: |
+  I am a PhD student at Griffith University. My research interests span hyperspectral object tracking, dataset distillation, continual learning, image/video compression, and multimodal learning.
+affiliations:
+  - name: Griffith University
+    url: https://www.griffith.edu.au/
+links:
+  - icon: at-symbol
+    url: mailto:xu.han2@griffithuni.edu.au
+    label: Email
+  - icon: brands/github
+    url: https://github.com/han030927
+    label: GitHub
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=ZtxlPc0AAAAJ&hl=en
+    label: Google Scholar
+interests:
+  - Hyperspectral Object Tracking
+  - Dataset Distillation
+  - Continual Learning
+  - Image/Video Compression
+  - Multimodal Learning
+education:
+  - degree: PhD (in progress)
+    institution: Griffith University
+    year: 'Sep 2025 – Present'
+    start: 2025-09-01
+    end: ''
+  - degree: Master's Degree
+    institution: UNSW Sydney
+    year: 'Sep 2022 – Sep 2024'
+    start: 2022-09-01
+    end: 2024-09-30
+  - degree: Bachelor of Science
+    institution: Northeastern University, China
+    year: 'Aug 2017 – Jul 2021'
+    start: 2017-08-01
+    end: 2021-07-31
+
