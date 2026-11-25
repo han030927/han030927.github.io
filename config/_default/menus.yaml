@@ -5,6 +5,9 @@ main:
   - name: Publications
     url: /#papers
     weight: 20
+  - name: Service
+    url: /#service
+    weight: 30
   - name: Contact
     url: /#contact
-    weight: 30
+    weight: 40

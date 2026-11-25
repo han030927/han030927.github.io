@@ -158,6 +158,9 @@
         {{ partial "page_metadata_authors" $item }}
       </div>
       {{ end }}
+      {{ with $item.Params.author_contribution }}
+      <p class="text-sm font-semibold text-primary-700 dark:text-primary-300">{{ . }}</p>
+      {{ end }}
       
       <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed">
         {{ (partial "functions/get_summary" $item) | plainify | htmlUnescape | truncate 180 }}

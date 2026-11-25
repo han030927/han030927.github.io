@@ -37,7 +37,19 @@ sections:
       sort_ascending: false
     design:
       view: article-grid
-      columns: 3
+      columns: 2
+  - block: markdown
+    id: service
+    content:
+      title: Academic Service
+      text: |
+        **Reviewer for**
+
+        - Transactions on Machine Learning Research (TMLR)
+        - International Conference on Learning Representations (ICLR)
+        - IEEE Transactions on Multimedia (TMM)
+    design:
+      columns: '1'
   - block: markdown
     id: contact
     content:
